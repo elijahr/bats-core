@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+export PATH="$BATS_ROOT/libexec/bats-core:$PATH"
+
 export BATS_VERSION='1.2.1'
 VALID_FORMATTERS="pretty, junit, tap, tap13"
 
